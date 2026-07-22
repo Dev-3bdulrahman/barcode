@@ -1,0 +1,11 @@
+{
+    "name": "Barcode",
+    "slug": "barcode",
+    "version": "1.0.0",
+    "description": "Barcode Printing & Label Designer",
+    "description_ar": "طباعة الباركود وتصميم الملصقات",
+    "is_active": true,
+    "provider": "Dev3bdulrahman\\Barcode\\BarcodeServiceProvider",
+    "dependencies": ["inventory"],
+    "order": 17
+}
