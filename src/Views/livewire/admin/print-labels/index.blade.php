@@ -65,7 +65,7 @@
                                 {{ in_array($product->id, $selectedProductIds) ? 'checked' : '' }}
                                 class="rounded border-gray-300 dark:border-gray-600 text-blue-600 focus:ring-blue-500">
                             <div class="flex-1 min-w-0">
-                                <div class="font-medium text-gray-900 dark:text-white truncate">{{ $product->name }}</div>
+                                <div class="font-medium text-gray-900 dark:text-white truncate">{{ $product->translated_name }}</div>
                                 @if($product->sku)
                                     <div class="text-xs text-gray-400">{{ $product->sku }}</div>
                                 @endif

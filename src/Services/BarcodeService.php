@@ -53,7 +53,7 @@ class BarcodeService
         return [
             'barcode_image' => $barcodeImage,
             'barcode_data' => $barcodeData,
-            'product_name' => $product->name,
+            'product_name' => $product->translated_name,
             'product_sku' => $product->sku,
             'price' => $product->selling_price ?? $product->price ?? 0,
             'variant_name' => $variant ? $variant->name ?? null : null,
